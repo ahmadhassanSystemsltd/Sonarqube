@@ -1,0 +1,4 @@
+kubectl create namespace sonarqube
+kubectl create secret generic sonarqube-secrets \
+  --namespace sonarqube \
+  --from-literal=POSTGRES_PASSWORD=<your_postgres_password>
