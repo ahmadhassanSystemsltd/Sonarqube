@@ -3,6 +3,8 @@ Setup Sonarqube on Kubernetes Cluster
 
 Clone the repository in your machine 
 
+cd K8s
+
 kubectl create ns sonarqube
 
 kubectl create secret generic sonarqube-secrets \
