@@ -19,3 +19,10 @@ kubectl apply -f sonarqube-pvc.yaml -n sonarqube
 kubectl apply -f sonarqube-deployment.yaml -n sonarqube
 
 kubectl apply -f sonarqube-service.yaml -n sonarqube
+
+
+kubectl get po -n sonarqube #see the pod is running
+
+kubectl get svc -n sonarqube #see the nodeport IP
+
+access the sonarqube at http://nodeip:30000
