@@ -26,3 +26,5 @@ kubectl get po -n sonarqube #see the pod is running
 kubectl get svc -n sonarqube #see the nodeport IP
 
 access the sonarqube at http://nodeip:30000
+
+#by default sonarqube password is **admin**
